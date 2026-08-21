@@ -6,3 +6,9 @@
 // nota2
 
 // Calcule a média e mostre no console
+
+let nota1 = 4
+let nota2 = 2
+let media = (nota1 + nota2)*2
+
+console.log(`sua media e ${media}`);

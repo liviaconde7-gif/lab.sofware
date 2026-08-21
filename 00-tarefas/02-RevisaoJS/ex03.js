@@ -9,8 +9,8 @@
 // Mostre no console usando concatenando as variáveis:
 // Meu (produto) custa (preco) e temos (quantidade) no estoque
 
-let = produto
-let = preco 
-let = quantidade
+let produto = "iphone_30"
+let preco = 99999999
+let quantidade = 1
 
-console.log
+console.log(`meu ${produto} custa ${preco} e temos ${quantidade} no estoque`);
