@@ -32,9 +32,17 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
     dadoDois = Number(dadoDois);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    let soma = (dadoUm + dadoDois)
+    
+    let igual = (soma*2)
+    if ( dadoUm == dadoDois){
+      console.log (`Resultado ${igual}`);
+    }
+    else {
+      console.log(`Resutado ${soma}`);
+    }
 
-
-
+    
     rl.close();
   });
 });

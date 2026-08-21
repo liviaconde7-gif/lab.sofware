@@ -48,6 +48,24 @@ rl.question("Digite a primeira carta do jogador: ", (j1) => {
     j2 = Number(j2);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+     
+  
+    let soma=(j2+j1)
+
+    if(soma >21){
+      console.log(`perdeu`);
+    }
+    else if(soma = 21){
+      console.log(`venceu`);
+    }
+    
+    console.log(dealer1+dealer2);
+      if(soma > 21){
+      console.log(`0`);
+    }
+    else if(soma <= 21){
+      console.log(`Dealer venceu`);
+    }
 
     rl.close();
   });

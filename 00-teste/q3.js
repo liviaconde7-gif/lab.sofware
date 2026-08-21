@@ -33,6 +33,17 @@ rl.question("Digite a quantidade de piratas: ", (piratas) => {
     ouro = Number(ouro);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+     
+    let pirata = piratas
+    let our = ouro
+    let soma = (piratas + ouro)
+
+    if (ouro == piratas){
+      console.log(`A viagem será um sucesso`);
+    }
+    else if (soma > 100){
+      console.log (`a pirataria foi um fracasso pois o navio provavelmente irá afundar por conta do peso`);
+    }
 
     rl.close();
   });

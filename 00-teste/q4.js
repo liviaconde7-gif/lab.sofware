@@ -59,6 +59,10 @@ rl.question("Digite o valor da compra em centavos: ", (a) => {
 
     //REALIZE O EXERCÍCIO AQUI 🔽
 
+    let a= (a)
+    let b= (b)
+    let gorgeta= (a*b)
+    console(`${gorgeta}`);
     rl.close();
   });
 });
