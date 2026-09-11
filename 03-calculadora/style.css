@@ -48,7 +48,7 @@ button:hover {
 }
 
 /* Estilos botões */
-.btn-operador { background-color: #ff9800; color: white; }
+.btn-operador { background-color: #ff9800; color: rgb(255, 255, 255); }
 .btn-operador:hover { background-color: #e68a00; }
 
 .btn-acao { background-color: #f44336; color: white; }

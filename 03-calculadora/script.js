@@ -12,12 +12,21 @@ function adicionar(valor) {
 function somar(a, b) {
     return a + b;
 }
+function subtrair (c, d) {
+    return c - d;
+}
+function multiplicar (e, f){
+    return e * f
+}
+function dividir (g, h){
+    return g / h
+}
 
 // 3. Função para identificar a conta e calcular
 function calcular() {
     let visor = document.getElementById('visor');
     let texto = visor.value;
-
+}
     if (texto.includes('+')) {
         let partes = texto.split('+'); 
         
@@ -26,6 +35,27 @@ function calcular() {
         
         visor.value = somar(num1, num2);
     } 
+    
+    function calcular1() {
+    let visor = document.getElementById('visor');
+    let texto = visor.value;
+
+    else if (texto.includes('-')) {
+        let partes = texto.split('-'); 
+        
+        let nume1 = parseFloat(partes[0]);
+        let nume2 = parseFloat(partes[1]);
+        
+        visor.value = subtrair(nume1, nume2);
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
     
     // ====================================================
     // EXERCÍCIO 2: Continue a lógica abaixo
