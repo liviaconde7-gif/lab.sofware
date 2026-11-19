@@ -20,12 +20,16 @@
         <div class="botoes">
             <!-- Linha 1: Produtos -->
             <button onclick="adicionarItem('Hambúrguer (R$ 15.00)')">Hambúrguer (R$ 15,00)</button>
-            <button>Batata Frita (R$ 8.00)</button>
+            <button onclick="adicionarItem('Batata Frita (R$ 8.00)')">Batata Frita (R$ 8.00)</button>
             <button onclick="adicionarItem('Refrigerante (R$ 5.00)')">Refrigerante (R$ 5,00)</button>
+            <button onclick="adicionarItem('Milk Shake (R$ 20.00)')">Milk Shake (R$ 20,00)</button>
+            <button onclick="adicionarItem('Whisky(R$ 200.00)')">Whisky (R$ 200,00)</button> 
+            <button onclick="adicionarItem('Porche (R$ 1.00)')">Porche 911 (R$ 1,00)</button>
+            
 
             <!-- Linha 2: Ações -->
             <button onclick="calcularTotal()" class="btn-finalizar">Finalizar Pedido</button>
-            <button class="btn-limpar">Limpar</button>
+            <button onclick="limpar()"class="btn-limpar">Limpar</button>
         </div>
     </div>
 
